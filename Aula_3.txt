@@ -1,0 +1,363 @@
+    1  ls
+    2  ls
+    3  ls
+    4  ls-a
+    5  ls..
+    6  ls -a
+    7  ls ..
+    8  pwd
+    9  ls
+   10  cd desktop/
+   11  pwd
+   12  cd ..
+   13  cd ~
+   14  cd desktop/
+   15  cd ~
+   16  cd desktop/
+   17  mkdir
+   18  mkdir comandos
+   19  cd D
+   20  mkdir comandos
+   21  ls
+   22  cd comandos
+   23  mkdir pasta nova
+   24  ls
+   25  mkdir "pasta nova"
+   26  ls
+   27  mkdir -p new/old
+   28  ls
+   29  ls new
+   30  rm -r nova pasta
+   31  rm -r new
+   32  ls
+   33  mv 'pasta nova' pasta_nova
+   34  ls
+   35  mkdir new
+   36  ls
+   37  mv new pasta_nova/
+   38  ls
+   39  touch arquivo.txt
+   40  ls
+   41  cp arquivo.txt pasta nova/
+   42  cp arquivo.txt pasta_nova/
+   43  ls
+   44  ls pasta_nova/
+   45  echo 'Mensagem'
+   46  echo 'mensagem' > comando.txt
+   47  cat comando.txt
+   48  cat
+   49  cat comando.txt
+   50  cat > comando.txt
+   51  cat >> comando.txt
+   52  history
+   53  clear
+   54  git config --global user .name 'Rubén Darío Contreras Aguilar
+   55  clear
+   56  clear
+   57  git config --global user.name 'Rubén Darío Contreras Aguilar'
+   58  git config --global user.email 'rubencontreras.aguilar@gmail.com'
+   59  git config user.name
+   60  cd Desktop/
+   61  mkdir Curso_Git
+   62  cd Curso_Git/
+   63  git config user.name
+   64  git init
+   65  git status
+   66  echo '#aprendendo usar o Git' > readme.md
+   67  git status
+   68  git add readme.md
+   69  git status
+   70  git commit -m 'commit inicial'
+   71  git status
+   72  echo '##Aula 1' >> resdme.md
+   73  git status
+   74  echo '##Aula 1' >> readme.md
+   75  git status
+   76  echo 'Rubén Contreras' > participantes.txt
+   77  git status
+   78  git add .
+   79  git status
+   80  git restore --staged participantas.txt
+   81  git restore --staged participantes.txt
+   82  git status
+   83  git add participantes.txt
+   84  git status
+   85  git restore --staged .
+   86  git status
+   87  git commit -am 'alteraçao no readme'
+   88  git status
+   89  git add participantes.txt
+   90  git status
+   91  git commit -m 'adicionado participantes.txt'
+   92  history > Aula_3.txt
+   93  git status
+   94  git add .
+   95  git commit -m 'comandos da aula 3'
+   96  clear
+   97  history
+   98  clear
+   99  git log
+  100  git log
+  101  git log
+  102  clear
+  103  git log
+  104  git log --pretty=oneline
+  105  git log --stat
+  106  git log -p
+  107  git log --pretty=oneline -2
+  108   git log --pretty=oneline -3
+  109   git log --pretty=oneline -4
+  110   git log --pretty=oneline -10
+  111  git log --since=2.minutes
+  112   git log --since=20.minutes
+  113   git log --since=20.minutes
+  114   git log --since=10.minutes
+  115  git log --author='Rubén Darío Contreras Aguilar
+  116  git log --since=2. minutes
+  117  git log --author=''Rubén Darío Contreras Aguilar'
+  118  git log
+  119  git status
+  120  touch teste
+  121  git add teste
+  122  git status
+  123  git commit -m 'commit de teste'
+  124  git log
+  125  git reset --soft HEAD~
+  126  git log
+  127  git status
+  128  git commit -m 'Commit de teste'
+  129  git log
+  130  git reset --hart
+  131  git reset --hard
+  132  git reset --hard HEAD~
+  133  git log
+  134  git status
+  135  clear
+  136  git log
+  137  clear
+  138  git log
+  139  git log
+  140  clear
+  141  /c/Users/Positivo/Desktop/Curso_Git/Aula_3.txt
+  142  git log
+  143  clear
+  144  /c/Users/Positivo/Desktop/Curso_Git
+  145  git log
+  146  1  ls
+  147      2  ls
+  148      3  ls
+  149      4  ls-a
+  150      5  ls..
+  151      6  ls -a
+  152      7  ls ..
+  153      8  pwd
+  154      9  ls
+  155     10  cd desktop/
+  156     11  pwd
+  157     12  cd ..
+  158     13  cd ~
+  159     14  cd desktop/
+  160     15  cd ~
+  161     16  cd desktop/
+  162     17  mkdir
+  163     18  mkdir comandos
+  164     19  cd D
+  165     20  mkdir comandos
+  166     21  ls
+  167     22  cd comandos
+  168     23  mkdir pasta nova
+  169     24  ls
+  170     25  mkdir "pasta nova"
+  171     26  ls
+  172     27  mkdir -p new/old
+  173     28  ls
+  174     29  ls new
+  175     30  rm -r nova pasta
+  176     31  rm -r new
+  177     32  ls
+  178     33  mv 'pasta nova' pasta_nova
+  179     34  ls
+  180     35  mkdir new
+  181     36  ls
+  182     37  mv new pasta_nova/
+  183     38  ls
+  184     39  touch arquivo.txt
+  185     40  ls
+  186     41  cp arquivo.txt pasta nova/
+  187     42  cp arquivo.txt pasta_nova/
+  188     43  ls
+  189     44  ls pasta_nova/
+  190     45  echo 'Mensagem'
+  191     46  echo 'mensagem' > comando.txt
+  192     47  cat comando.txt
+  193     48  cat
+  194     49  cat comando.txt
+  195     50  cat > comando.txt
+  196     51  cat >> comando.txt
+  197     52  history
+  198     53  clear
+  199     54  git config --global user .name 'Rubén Darío Contreras Aguilar
+  200     55  clear
+  201     56  clear
+  202     57  git config --global user.name 'Rubén Darío Contreras Aguilar'
+  203     58  git config --global user.email 'rubencontreras.aguilar@gmail.com'
+  204     59  git config user.name
+  205     60  cd Desktop/
+  206     61  mkdir Curso_Git
+  207     62  cd Curso_Git/
+  208     63  git config user.name
+  209     64  git init
+  210     65  git status
+  211     66  echo '#aprendendo usar o Git' > readme.md
+  212     67  git status
+  213     68  git add readme.md
+  214     69  git status
+  215     70  git commit -m 'commit inicial'
+  216     71  git status
+  217     72  echo '##Aula 1' >> resdme.md
+  218     73  git status
+  219     74  echo '##Aula 1' >> readme.md
+  220     75  git status
+  221     76  echo 'Rubén Contreras' > participantes.txt
+  222     77  git status
+  223     78  git add .
+  224     79  git status
+  225     80  git restore --staged participantas.txt
+  226     81  git restore --staged participantes.txt
+  227     82  git status
+  228     83  git add participantes.txt
+  229     84  git status
+  230     85  git restore --staged .
+  231     86  git status
+  232     87  git commit -am 'alteraçao no readme'
+  233     88  git status
+  234     89  git add participantes.txt
+  235     90  git status
+  236     91  git commit -m 'adicionado participantes.txt'
+  237     92  history > Aula_3.txt
+  238     93  git status
+  239     94  git add .
+  240     95  git commit -m 'comandos da aula 3'
+  241     96  clear
+  242     97  history
+  243     98  clear
+  244     99  git log
+  245    100  git log
+  246    101  git log
+  247    102  git config --global user.name 'Rubén Darío Contreras Aguilar'
+  248    103  git config --global user.email 'rubencontreras.aguilar@gmail.com'
+  249    104  git config user.name
+  250    105  cd Desktop/
+  251    106  mkdir Curso_Git
+  252    107  cd Curso_Git/
+  253    108  git config user.name
+  254    109  git init
+  255    110  git status
+  256    111  echo '#Aprendendo usar o Git' > readme.md
+  257    112  git status
+  258    113  git add readme.md
+  259    114  git status
+  260    115  git commit -m 'commit inicial'
+  261    116  git status
+  262    117  echo '##Aula 1' >>readme.md
+  263    118  git status
+  264    119  echo 'Rubén Contreras' > participantes.txt
+  265    120  status
+  266    121  git status
+  267    122  git add .
+  268    123  git status
+  269    124  git restore --staged participantes.txt
+  270    125  git status
+  271    126  git add participantes.txt
+  272    127  git status
+  273    128  git restore --staged .
+  274    129  git status
+  275    130  git commit -am 'Alteraçao no readme'
+  276    131  git status
+  277    132  git add participantes.txt
+  278    133  git status
+  279    134  git commit -m 'Adicionado participantes.txt'
+  280    135  history > Aula 3.txt
+  281    136  history > Aula_3.txt
+  282  git log
+  283  CLEAR
+  284  Cc
+  285  clear
+  286  git log --pretty=oneline
+  287  .git
+  288  .git log
+  289  clear
+  290  GIT LOG
+  291  clear
+  292  status
+  293  git status
+  294  clear
+  295  ls
+  296  ls -a
+  297  cd
+  298  cd..
+  299  cd ..
+  300  cd ~
+  301  pwd
+  302  git config user.name
+  303  git config user.email
+  304  git log
+  305  git init
+  306  git log
+  307  clear
+  308  git init
+  309  git ststus
+  310  git status
+  311  clear
+  312  git add Aula_3
+  313  git add 'Aula_3'
+  314  git add .
+  315  clear
+  316  git status
+  317  clear
+  318  git add readme.me
+  319  clear
+  320  git add readme.md
+  321  clear
+  322  git config usre.name
+  323  git config user.name
+  324  cd desktop/
+  325  mkdir Curso_Git/
+  326  git git
+  327  git config user.name
+  328  git init
+  329  git config --global user.name 'Ruben Contreras'
+  330  git config --global user.email 'rubencontreras.aguilar@gmail.com'
+  331  git config user.name
+  332  cd Desktop/
+  333  mkdir Curso_Git
+  334  cd Curso_git/
+  335  git config user.name
+  336  git init
+  337  git status
+  338  scho '#Aprendendo usar o git' > readme.md
+  339  echo '#Aprendendo usar o git' > readme.md
+  340  git status
+  341  git add readme.md
+  342  git status
+  343  git commit -m 'Commit inicial'
+  344  git status
+  345  echo '##Aula 1' >> readme.md
+  346  git status
+  347  echo 'Ruben Contreras' > participantes.txt
+  348  git status
+  349  git add .
+  350  git status
+  351  git restore --staged participantes.txt
+  352  git status
+  353  git add participantes.txt
+  354  git status
+  355  git restore --staged .
+  356  git status
+  357  git commit -am 'Alteração no readme'
+  358  git status
+  359  git add participantes.txt
+  360  git status
+  361  git commit -m 'Adicionado participantes.txt
+'
+  362  history > Aula_3.txt
